@@ -3,8 +3,14 @@
 
 
 ### Features 
+- Display point information (Id, Easting, Northing, Elevation)
+- Export/convert coordinates to different formats:
+  - Leica GSI 
+  - Leica IDEX
+
+### TODO 
+- Manage single point information (Id, Easting, Northing, Elevation)
 - Manage point coordinates database (insert, read, update, delete)
-- Manage single point information (Id, Easting, Northing, Elevation, Code)
 - Import/export/convert coordinates from/to different formats:
   - Human readable text files (TXT)
   - Comma-separated values (CSV)

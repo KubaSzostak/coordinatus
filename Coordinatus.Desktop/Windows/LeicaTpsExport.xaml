@@ -1,0 +1,12 @@
+﻿<Window x:Class="Coordinatus.Windows.LeicaTpsExport"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="LeicaTpsExport" Height="300" Width="300">
+    <Grid>
+        <StackPanel >
+            <ComboBox Name="SerialPortsBox" />
+            <Button Click="Button_Click" >Upload</Button>
+            <ListBox Name="JobsBox" MinHeight="100"></ListBox>
+        </StackPanel>
+    </Grid>
+</Window>
